@@ -33,30 +33,31 @@ First, download the script to your server. You can either create the file manual
 
 #### Option 1: Using `curl` to download
 ```bash
-curl -o MainServer_0.py https://example.com/path/to/MainServer_0.py
-
-Option 2: Using wget to download
-
-wget https://example.com/path/to/MainServer_0.py -O MainServer_0.py
-
+curl -o MainServer_0.py https://github.com/the-shadow-0/MainServer_0.git
+```
+#### Option 2: Using git clone to download
+```bash
+git clone https://github.com/the-shadow-0/MainServer_0.git
+```
 2. Set Permissions
 
 Make sure the script has executable permissions. Run the following command:
-
+```bash
 chmod +x MainServer_0.py
-
+```
 3. Make It Executable (Optional)
 
 If you want to execute the script directly like a shell command, you can move it to a directory in your PATH (e.g., /usr/local/bin/):
-
+```bash
 sudo mv MainServer_0.py /usr/local/bin/
-
+```
 You can now run the script by typing MainServer_0 in the terminal.
 How to Run the Script
 
 To execute the script, simply run the following command:
-
+```bash
 sudo python3 MainServer_0.py
+```
 
 Important Notes:
 

@@ -92,7 +92,8 @@ Replace 2222 with your preferred port number.
 Disable/Enable Services:
 
 The script does not disable any services by default.
-Troubleshooting
+
+Troubleshooting :
 
     Permission Denied: Make sure you're running the script with sudo (root access).
     Package Installation Issues: Ensure your server has access to the internet and the package repositories are up-to-date (apt update).
